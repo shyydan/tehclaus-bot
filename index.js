@@ -48,7 +48,7 @@ bot.on('message', function(msg) {
     const chatId = msg.chat.id;
     console.dir(msg)
 
-    if (msg.from.username === 'vadimamarin') {
+    if (msg.from.username === 'tehclaus') {
         const message = 'Для информации просто. \nМало ли, мож пригодится вам.';
 
         setTimeout(function() {
